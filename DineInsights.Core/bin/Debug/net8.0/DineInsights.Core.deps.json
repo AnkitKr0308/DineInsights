@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DineInsights.Core/1.0.0": {
+        "runtime": {
+          "DineInsights.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DineInsights.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

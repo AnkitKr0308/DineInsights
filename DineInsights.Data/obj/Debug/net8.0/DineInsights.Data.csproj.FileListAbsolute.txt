@@ -1,0 +1,15 @@
+D:\Ankit\.NET\DineInsights\DineInsights.Data\bin\Debug\net8.0\DineInsights.Data.deps.json
+D:\Ankit\.NET\DineInsights\DineInsights.Data\bin\Debug\net8.0\DineInsights.Data.dll
+D:\Ankit\.NET\DineInsights\DineInsights.Data\bin\Debug\net8.0\DineInsights.Data.pdb
+D:\Ankit\.NET\DineInsights\DineInsights.Data\bin\Debug\net8.0\DineInsights.Core.dll
+D:\Ankit\.NET\DineInsights\DineInsights.Data\bin\Debug\net8.0\DineInsights.Core.pdb
+D:\Ankit\.NET\DineInsights\DineInsights.Data\obj\Debug\net8.0\DineInsights.Data.csproj.AssemblyReference.cache
+D:\Ankit\.NET\DineInsights\DineInsights.Data\obj\Debug\net8.0\DineInsights.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ankit\.NET\DineInsights\DineInsights.Data\obj\Debug\net8.0\DineInsights.Data.AssemblyInfoInputs.cache
+D:\Ankit\.NET\DineInsights\DineInsights.Data\obj\Debug\net8.0\DineInsights.Data.AssemblyInfo.cs
+D:\Ankit\.NET\DineInsights\DineInsights.Data\obj\Debug\net8.0\DineInsights.Data.csproj.CoreCompileInputs.cache
+D:\Ankit\.NET\DineInsights\DineInsights.Data\obj\Debug\net8.0\DineInsi.27DACB65.Up2Date
+D:\Ankit\.NET\DineInsights\DineInsights.Data\obj\Debug\net8.0\DineInsights.Data.dll
+D:\Ankit\.NET\DineInsights\DineInsights.Data\obj\Debug\net8.0\refint\DineInsights.Data.dll
+D:\Ankit\.NET\DineInsights\DineInsights.Data\obj\Debug\net8.0\DineInsights.Data.pdb
+D:\Ankit\.NET\DineInsights\DineInsights.Data\obj\Debug\net8.0\ref\DineInsights.Data.dll
