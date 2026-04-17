@@ -9,3 +9,4 @@ D:\Ankit\.NET\DineInsights\DineInsights.Core\obj\Debug\net8.0\DineInsights.Core.
 D:\Ankit\.NET\DineInsights\DineInsights.Core\obj\Debug\net8.0\refint\DineInsights.Core.dll
 D:\Ankit\.NET\DineInsights\DineInsights.Core\obj\Debug\net8.0\DineInsights.Core.pdb
 D:\Ankit\.NET\DineInsights\DineInsights.Core\obj\Debug\net8.0\ref\DineInsights.Core.dll
+D:\Ankit\.NET\DineInsights\DineInsights.Core\obj\Debug\net8.0\DineInsights.Core.sourcelink.json

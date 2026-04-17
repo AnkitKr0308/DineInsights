@@ -31,8 +31,17 @@
                     <i class="bi bi-zoom-in"></i>
                 </a>
             </td>
+            <td>
+                <a class="btn btn-lg" asp-page="./Edit" asp-route-restaurantId="@restaurant.ID">
+                    <i class="bi bi-pencil-square"></i>
+                </a>
+            </td>
         </tr>
     }
 </table>
+
+<div>
+    <a asp-page="./Edit" class="btn btn-secondary">Add New Restaurant</a>
+</div>
 
 <div>@Model.Message</div>

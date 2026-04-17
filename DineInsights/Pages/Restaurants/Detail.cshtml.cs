@@ -8,11 +8,14 @@ namespace DineInsights.Pages.Restaurants
     public class DetailModel : PageModel
     {
         private readonly IRestaurantData restaurantData;
+        public Restaurant Restaurant { get; set; }
+        [TempData]
+        public string Message { get; set; }
         public DetailModel(IRestaurantData restaurantData)
         {
             this.restaurantData = restaurantData;
         }
-        public Restaurant Restaurant { get; set; }
+        
 
         public IActionResult OnGet(int restaurantId)
         {
