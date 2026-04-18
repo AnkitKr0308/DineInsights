@@ -9,6 +9,7 @@ namespace DineInsights.Pages.Restaurants
     {
         private readonly IConfiguration config;
         private readonly IRestaurantData restaurantData;
+        [TempData]
         public string Message { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
         [BindProperty(SupportsGet = true)]
@@ -20,7 +21,6 @@ namespace DineInsights.Pages.Restaurants
         }
         public void OnGet()
         {
-            Message = config["Message"];
             Restaurants = restaurantData.GetRestaurantsByName(SearchTerm);
         }
     }

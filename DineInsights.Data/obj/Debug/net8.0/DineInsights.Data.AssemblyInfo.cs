@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DineInsights.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0265cc272ca901e1f7942253f1948afefc5e63c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b521645b214e493585629bff01b5bcbd9142a3f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("DineInsights.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DineInsights.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

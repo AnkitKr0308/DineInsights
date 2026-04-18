@@ -6,8 +6,15 @@
 
 <h1>Restaurants</h1>
 
+@if (@Model.Message != null)
+{
+    <div class="alert alert-danger">
+        @Model.Message
+    </div>
+}
+
 <form method="get">
-    <div class="form-group">
+    <div class="form-group mb-3">
         <div class="input-group">
             <input type="search" class="form-control" asp-for="SearchTerm" />
             <span class="input-group-btn">
@@ -19,7 +26,7 @@
     </div>
 </form>
 
-<table class="table">
+@* <table class="table">
     @foreach (var restaurant in Model.Restaurants)
     {
         <tr>
@@ -30,18 +37,28 @@
                 <a class="btn btn-lg" asp-page="./Detail" asp-route-restaurantId="@restaurant.ID">
                     <i class="bi bi-zoom-in"></i>
                 </a>
-            </td>
-            <td>
+          
                 <a class="btn btn-lg" asp-page="./Edit" asp-route-restaurantId="@restaurant.ID">
                     <i class="bi bi-pencil-square"></i>
+                </a>
+           
+                <a class="btn btn-lg" asp-page="./Delete" asp-route-restaurantId="@restaurant.ID">
+                    <i class="bi bi-trash"></i>
                 </a>
             </td>
         </tr>
     }
-</table>
+</table> *@
+
+@foreach(var restaurant in Model.Restaurants)
+{
+    <partial name="_Summary" model="restaurant" class="mt-3" />
+}
 
 <div>
     <a asp-page="./Edit" class="btn btn-secondary">Add New Restaurant</a>
 </div>
 
-<div>@Model.Message</div>
+@* @section footer{
+    <div>@Model.Message</div>
+} *@

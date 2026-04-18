@@ -1,0 +1,35 @@
+﻿@using DineInsights.Core
+@model Restaurant
+
+<div class="card mb-3 shadow-sm">
+
+    <div class="card-header">
+        <h5 class="mb-0">@Model.Name</h5>
+    </div>
+
+    <div class="card-body">
+        <div><strong>Location:</strong> @Model.Location</div>
+        <div><strong>Cuisine:</strong> @Model.Cuisine</div>
+    </div>
+
+    <div class="card-footer d-flex gap-2">
+        <a class="btn btn-outline-primary btn-sm"
+           asp-page="./Detail"
+           asp-route-restaurantId="@Model.ID">
+            <i class="bi bi-zoom-in"></i>
+        </a>
+
+        <a class="btn btn-outline-secondary btn-sm"
+           asp-page="./Edit"
+           asp-route-restaurantId="@Model.ID">
+            <i class="bi bi-pencil-square"></i>
+        </a>
+
+        <a class="btn btn-outline-danger btn-sm"
+           asp-page="./Delete"
+           asp-route-restaurantId="@Model.ID">
+            <i class="bi bi-trash"></i>
+        </a>
+    </div>
+
+</div>

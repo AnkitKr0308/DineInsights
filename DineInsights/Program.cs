@@ -1,11 +1,18 @@
 using DineInsights.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
+//builder.Services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
+builder.Services.AddScoped<IRestaurantData, SqlRestaurantData>();
+
+builder.Services.AddDbContextPool<DineInsightsDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DineInsightsDb"));
+});
 
 var app = builder.Build();
 
